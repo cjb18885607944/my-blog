@@ -1,0 +1,7 @@
+name = "my-blog"
+compatibility_date = "2024-01-01"
+
+kv_namespaces = [
+  { binding = "BLOG_POSTS", id = "a9a1619da1294b239a1481f7add7cbe0" },
+  { binding = "BLOG_STATS", id = "f8e5c55efe6c4d4caf12885c3ea7d731" }
+] 

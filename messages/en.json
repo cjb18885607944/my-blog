@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "home": "Home",
+    "resume": "Resume",
+    "blog": "Blog"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "home": {
+    "title": "Frontend Dev Notes",
+    "subtitle": "Sharing frontend development experience and interview tips",
+    "viewBlog": "View Blog",
+    "viewResume": "View Resume"
+  }
+} 
