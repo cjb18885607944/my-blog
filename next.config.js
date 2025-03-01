@@ -1,8 +1,11 @@
-const withNextIntl = require("next-intl/plugin")();
+const withNextIntl = require("next-intl/plugin")("./i18n.ts");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // 静态导出
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = withNextIntl(nextConfig);
